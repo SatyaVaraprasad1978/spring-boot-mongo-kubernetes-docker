@@ -88,7 +88,7 @@
 							<name>${docker.repository.name}:${version.number}</name>
 							<alias>${project.artifactId}</alias>
 							<build>
-								<from>anapsix/alpine-java:jre8</from>
+								<from>anapsix/alpine-java</from>
 								<tags><!-- define additional tags for the image -->
 									<tag>latest</tag>
 								</tags>
